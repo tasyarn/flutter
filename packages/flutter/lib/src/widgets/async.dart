@@ -234,7 +234,7 @@ class AsyncSnapshot<T> {
   /// If the asynchronous computation has never returned a value, this may be
   /// set to an initial data value specified by the relevant widget. See
   /// [FutureBuilder.initialData] and [StreamBuilder.initialData].
-  final T? data;
+  final data;
 
   /// Returns latest data received, failing if there is no data.
   ///
